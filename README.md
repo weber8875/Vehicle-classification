@@ -15,11 +15,11 @@
 	圖像太暗/太亮
 	Laplacian 檢查模糊度
  
-==========================
+
 https://zx7978123.medium.com/圖像相似度算法-google以圖搜圖-2-bde3d8c9568d
 ●感知雜湊演算法（PHash、Perceptual Hash）
 Input圖片 -> 縮放大小 -> 灰階化 -> 計算DCT  -> 計算平均值 -> 進一步縮小DCT -> 產生Hash value
-==========================
+
 
 ③ 半自動分群 → 手動分類測試集
 使用 KMeans 對車圖進行分群
