@@ -55,5 +55,5 @@ Input圖片 -> 縮放大小 -> 灰階化 -> 計算DCT  -> 計算平均值 -> 進
 
 改進：
 
-   	•	強化 motorcycle 訓練資料  
-   	•	嘗試使用 Pretrained model（如 MobileNet）做遷移學習
+   	•	強化 motorcycle 訓練資料    
+   	•	嘗試使用 Pretrained model（如 MobileNet）做遷移學習 
