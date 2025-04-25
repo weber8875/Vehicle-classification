@@ -34,10 +34,13 @@ Input圖片 -> 縮放大小 -> 灰階化 -> 計算DCT  -> 計算平均值 -> 進
 ④  CNN 分類模型訓練
 
 增加功能：
+
 	•	ImageDataGenerator 做圖片增強（旋轉、亮度、翻轉…）
 	•	EarlyStopping（防止過擬合）
 	•	ReduceLROnPlateau（自動調整學習率）
+ 
 成果：
+
 	•	訓練與驗證準確率可達 92%+
 	•	但泛化能力差（測試集 accuracy 僅 22%）
  
@@ -46,9 +49,11 @@ Input圖片 -> 縮放大小 -> 灰階化 -> 計算DCT  -> 計算平均值 -> 進
 預測類別 → 混淆矩陣、分類報告
 
 發現：
+
 	•	模型極度偏向 motorcycle，誤判嚴重
 	•	問題來自：資料不平衡 + 特徵分布差異
 
 改進：
-   •	強化 motorcycle 訓練資料！
-   •	嘗試使用 Pretrained model（如 MobileNet）做遷移學習
+
+   	•	強化 motorcycle 訓練資料！
+   	•	嘗試使用 Pretrained model（如 MobileNet）做遷移學習
