@@ -2,9 +2,13 @@
 
 ① YOLO 模型準備與目標偵測
    	•	模型格式：yolov5s.onnx
+    
 	•	偵測目標：car、motorcycle
+ 
 	•	推論方式：使用  cv2.dnn 搭配 onnxruntime
+ 
 	•	偵測參數：score > 0.4，confidence > 0.5
+ 
 	•	裁圖方式：每 N 幀擷取一次（避免重複），過濾模糊/太小/過亮/過暗
 
 ② 資料裁切與去重複
