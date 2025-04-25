@@ -1,6 +1,7 @@
 訓練集影片：https://www.pexels.com/video/a-busy-city-street-at-dusk-with-cars-and-motorcycles-19781692/
+
 ① YOLO 模型準備與目標偵測
-   •	模型格式：yolov5s.onnx
+   	•	模型格式：yolov5s.onnx
 	•	偵測目標：car、motorcycle
 	•	推論方式：使用  cv2.dnn 搭配 onnxruntime
 	•	偵測參數：score > 0.4，confidence > 0.5
